@@ -1,0 +1,105 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #d0dfff;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding-bottom: 16px;
+}
+
+header {
+	width: 100%;
+	margin-block: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header button {
+	width: 924px;
+	height: 70px;
+	background-color: #8cafcf;
+	font-size: 24px;
+	font-weight: bold;
+	border: none;
+	border-radius: 12px;
+	transition: all 0.2s ease-in;
+}
+
+header button:hover {
+	background-color: #f5f5f5;
+	color: #9dc3e7;
+	transform: scale(1.1);
+	border: 2px solid #9dc3e7;
+	cursor: pointer;
+}
+
+.userCards {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
+}
+
+.card {
+	background-color: #8cafcf;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	padding-block: 40px;
+	border-radius: 35px;
+}
+
+#userPic {
+	width: 260px;
+	aspect-ratio: 1/1;
+	background-image: url(userPic.jpeg);
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.nameAndUser,
+.mailAndCity {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-self: flex-start;
+	margin-left: 21px;
+}
+
+.nameAndUser p {
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-self: flex-start;
+}
+
+.buttons button {
+	height: 40px;
+	width: 45%;
+	background-color: #f5f5f5;
+	border: none;
+	border-radius: 12px;
+	transition: all 0.2s ease-in;
+}
+
+.buttons button:hover {
+	background-color: #9dc3e7;
+	color: #f5f5f5;
+	transform: scale(1.1);
+	cursor: pointer;
+}
